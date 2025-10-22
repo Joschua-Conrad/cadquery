@@ -1,4 +1,4 @@
-
+.. _freefuncapi:
 
 *****************
 Free function API
