@@ -35,17 +35,17 @@ This chapter aims to give an explanation on this topic and to provide background
 
 CadQuery is composed of 4 different API, which are implemented on top of each other.
 
-1. The Fluent API
+#. The Fluent API
     #. :class:`~cadquery.Workplane` 
     #. :class:`~cadquery.Sketch` 
     #. :class:`~cadquery.Assembly`
-2. The Direct API
+#. The Direct API
     #. :class:`~cadquery.Shape` 
-2. The Geometry API
+#. The Geometry API
     #. :class:`~cadquery.Vector`
     #. :class:`~cadquery.Plane`
     #. :class:`~cadquery.Location`
-3. The OCCT API
+#. The OCCT API
 
 The Fluent API
 ~~~~~~~~~~~~~~~~~~~~~~
