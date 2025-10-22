@@ -51,6 +51,7 @@ Table Of Contents
     classreference.rst
     importexport.rst
     cqgi.rst
+    roadmap.rst
     extending.rst
     citing.rst
 
