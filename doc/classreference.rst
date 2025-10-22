@@ -34,7 +34,7 @@ Topological Classes
     Wire
     Face
     Shell
-    cadquery.occ_impl.shapes.Mixin3D
+    occ_impl.shapes.Mixin3D
     Solid
     Compound
 
