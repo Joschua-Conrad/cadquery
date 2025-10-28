@@ -113,7 +113,7 @@ are designed to aid in plugin creation:
      attempts to combine them into a single wire, which is returned. This should be used when your plugin creates
      2D edges, and you know it is time to collect them into a single wire.
 
-   * :py:meth:`cadquery.Workplane.plane` provides a reference to the workplane, which allows you to convert between workplane
+   * :py:attr:`cadquery.Workplane.plane` provides a reference to the workplane, which allows you to convert between workplane
      coordinates and global coordinates:
      * :py:meth:`cadquery.occ_impl.geom.Plane.toWorldCoords` will convert local coordinates to global ones
      * :py:meth:`cadquery.occ_impl.geom.Plane.toLocalCoords` will convert from global coordinates to local coordinates
