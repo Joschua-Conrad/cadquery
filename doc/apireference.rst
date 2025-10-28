@@ -192,6 +192,7 @@ Some 3D operations also require an active 2D workplane, but some do not.
 	Workplane.rotate
 	Workplane.rotateAboutCenter
 	Workplane.translate
+	Workplane.transformed
 	Workplane.mirror
 
 File Management and Export
