@@ -200,6 +200,15 @@ If you are going to contribute code, make sure to follow this steps:
   - ======= 215 passed, 57 warnings in 13.95s =======
 - Start with the tests! How should CadQuery behave after your changes? Make
   sure to add some tests to the test suite to ensure proper behavior
+  - To run your tests through your IDE or IPython, such that you get an interactive debugging-session
+    on failed tests, just use a small script like
+    ```python
+    import pytest
+    if __name__ == "__main__":
+      pytest.main(["-k", "test_example", "--pdb"])
+    ```
+  - replace *test_example* by the name of your own test. To debug the test with breakpoints,
+    replace *--pdb* by *--trace*.
 - Make sure your tests have assertions checking all the expected results
 - Add a nice docstring to the test indicating what the test is doing; if there
   is too much to explain, consider splitting the test in two!
